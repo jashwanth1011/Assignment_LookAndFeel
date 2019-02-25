@@ -1,0 +1,190 @@
+body
+{
+  font: 14px/1.5 Arial;
+  padding:0;
+  margin:0;
+  background-color:#ffffff;
+}
+
+/* Global */
+.container
+{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+#contact
+{
+  padding:20px;
+  margin-top:20px;
+  color:white;
+  background-color:#006400;
+  text-align: center;
+}
+
+span
+{
+  font-weight: bold;
+  color:orange;
+}
+
+/* Header **/
+header{
+  background:#008000;
+  color:#ffffff;
+  padding-top:35px;
+  min-height:50px;
+  border-bottom:#ADFF2F 3px solid;
+}
+/*
+.dropbtn
+{
+  background-color: #008000;
+  color: #FFFF00;
+  padding: 2px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+/*
+.dropdown-content
+ {
+  display: none;
+  position: absolute;
+  background-color: #008000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px yellow;
+  z-index: 1;
+}
+*/
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+header a{
+  color:#FFFF00;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #brand{
+  float:left;
+}
+
+header #brand h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:white;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+#looks {
+    min-height: 400px;
+    /*background: url('zumbapic.jpg') no-repeat 0 -200px;*/
+    background: url('zumbapic.jpg') 0 -200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* Newsletter */
+#pro{
+  padding:15px;
+  color:#ffffff;
+  background:#1D8348
+}
+
+#pro h1
+{
+  float:left;
+}
+
+
+  #looks h1{
+    margin-top:40px;
+  }
+
+
+  /* Style inputs */
+  input[type=text], select, textarea
+  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit]
+  {
+    background-color: #196F3D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover
+  {
+    background-color: #45a049;
+  }
